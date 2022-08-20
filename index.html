@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   <section id="money-calculator">
+    <div class="container mx-auto">
+        <h1 class="font-sans text-5xl font-bold text-center mb-4 mt-4 text-teal-600">Money Master💰</h1>
+        <div class="body grid grid-cols-2">
+            <div class="img flex justify-center">
+                <img src="image/1.jpg" alt="money" class="h-4/5">
+            </div>
+            <div class="calculator h-4/5 bg-gray-300">
+                <h2 class="text-center pt-5 text-3xl font-bold">Income</h2>
+                <form action="#" class="w-full mx-auto mt-3 max-w-2xl">
+                   <div class="flex items-center">
+                    <div class="w-1/3">
+                        <label for="income" class="block text-xl font-bold text-right mr-3 relative left-9">Income:</label>
+                    </div>
+                    <div class="w-2/3">
+                        <input id="income" type="text" class="appearance-none border-2 border-gray-200 rounded py-2 bg-gray-400 w-1/2 relative left-9">
+                    </div>
+                   </div>
+                </form>
+                <h2 class="text-center pt-5 text-3xl font-bold mb-3">Expenses</h2>
+                <form class="w-full max-w-sm mx-auto">
+                    <div class="md:flex md:items-center mb-6">
+                      <div class="md:w-1/3">
+                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-food">
+                          Food
+                        </label>
+                      </div>
+                      <div class="md:w-2/3">
+                        <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-food" type="text">
+                      </div>
+                    </div>
+                    <div class="md:flex md:items-center mb-6">
+                      <div class="md:w-1/3">
+                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-rent">
+                          Rent
+                        </label>
+                      </div>
+                      <div class="md:w-2/3">
+                        <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-rent" type="text">
+                      </div>
+                    </div>
+                    <div class="md:flex md:items-center mb-6">
+                      <div class="md:w-1/3">
+                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-clothes">
+                          Clothes
+                        </label>
+                      </div>
+                      <div class="md:w-2/3">
+                        <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-clothes" type="text">
+                      </div>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+   </section>
+</body>
+</html>
